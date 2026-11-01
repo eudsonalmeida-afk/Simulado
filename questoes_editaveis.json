@@ -1,0 +1,756 @@
+{
+  "id": "SEDUC-CE-2026-BIO-P2-02",
+  "description": "Banco de 50 questões inéditas, para edição e conferência",
+  "questions": [
+    {
+      "topic": 7,
+      "kind": "Inferência cladística",
+      "q": "A árvore filogenética apresenta as linhagens A, B, C e D. Um caráter binário está presente em A e C, mas ausente em B e D. Considerando o critério da máxima parcimônia e mudanças reversíveis possíveis, qual é o número MÍNIMO de alterações de estado necessário para explicar a distribuição do caráter?",
+      "opts": [
+        "Uma alteração.",
+        "Três alterações.",
+        "Duas alterações.",
+        "Quatro alterações."
+      ],
+      "answer": "C",
+      "explanation": "A e C não constituem um grupo exclusivo: são necessários pelo menos dois passos evolutivos (por exemplo, dois ganhos independentes ou um ganho e uma reversão). A topologia restringe as reconstruções possíveis.",
+      "fig": "clado",
+      "number": 1
+    },
+    {
+      "topic": 2,
+      "kind": "Gráfico experimental",
+      "q": "O gráfico apresenta a entrada de duas substâncias em função de suas concentrações externas. Mantidas as demais condições, qual inferência é sustentada pelos dados?",
+      "opts": [
+        "a curva II evidencia necessariamente transporte dependente de ATP.",
+        "a curva I é compatível com transportadores em número limitado, mas não permite distinguir isoladamente difusão facilitada de transporte ativo.",
+        "as duas curvas exigem que as moléculas atravessem bicamada lipídica por difusão simples.",
+        "a curva I demonstra movimento contra gradiente eletroquímico em todas as concentrações."
+      ],
+      "answer": "B",
+      "explanation": "Saturação é indício de ocupação de proteínas transportadoras, podendo ocorrer em transporte ativo ou difusão facilitada. Uma curva de fluxo por si só não mostra direção relativa ao gradiente ou consumo de ATP.",
+      "fig": "transporte",
+      "number": 2
+    },
+    {
+      "topic": 14,
+      "kind": "Estudo de caso didático",
+      "q": "Uma turma identifica diferenças de coloração em duas lâminas preparadas com reagentes distintos. Para desenvolver investigação científica, o professor deveria",
+      "opts": [
+        "apresentar previamente a conclusão e impedir novas hipóteses para preservar a objetividade.",
+        "trocar a observação por uma lista de definições a memorizar, pois o erro faz parte apenas de aulas teóricas.",
+        "permitir que cada grupo adote uma hipótese sem necessidade de evidências verificáveis.",
+        "solicitar previsões, controlar tempo de exposição e concentração dos reagentes e comparar resultados antes de concluir."
+      ],
+      "answer": "D",
+      "explanation": "Uma sequência investigativa exige hipóteses testáveis, identificação de variáveis e argumentação a partir dos dados, mantendo a mediação docente.",
+      "fig": null,
+      "number": 3
+    },
+    {
+      "topic": 10,
+      "kind": "Esquema de genética floral",
+      "q": "Na figura está indicada a expressão espacial dos genes de identidade floral A, B e C em quatro verticilos de uma flor, segundo o modelo ABC simplificado. Se a função B é perdida, mantendo A e C, os órgãos esperados nos verticilos 2 e 3 são, respectivamente",
+      "opts": [
+        "pétalas e estames, pois a função de B é redundante à função C.",
+        "sépalas e carpelos, porque A atua sem B no verticilo 2 e C atua sem B no 3.",
+        "carpelos e sépalas, porque ocorre inversão completa da polaridade floral.",
+        "estames e pétalas, pois a perda de B intensifica sua atividade em ambos os verticilos."
+      ],
+      "answer": "B",
+      "explanation": "No modelo ABC: A sozinho determina sépalas, A+B pétalas, B+C estames, C sozinho carpelos. Sem B, os verticilos 2 e 3 passam a expressar, respectivamente, sépalas e carpelos.",
+      "fig": "floral",
+      "number": 4
+    },
+    {
+      "topic": 5,
+      "kind": "Biotecnologia",
+      "q": "Após uma quebra de dupla fita induzida por Cas9, uma célula repara o DNA por junção de extremidades não homólogas. Qual resultado é mais plausível?",
+      "opts": [
+        "Alterações por inserção ou deleção no local do corte, capazes de modificar a leitura do gene.",
+        "Reposição obrigatória da sequência original por um molde homólogo externo.",
+        "Conversão automática da célula diploide em haploide.",
+        "Substituição de toda a sequência cromossômica por RNA mensageiro."
+      ],
+      "answer": "A",
+      "explanation": "A via NHEJ pode introduzir indels; edição de precisão por reparo dirigido por homologia não é automática.",
+      "fig": null,
+      "number": 5
+    },
+    {
+      "topic": 12,
+      "kind": "Caso de saúde pública",
+      "q": "Um adulto apresenta resistência periférica à insulina, com níveis séricos inicialmente elevados desse hormônio e glicemia de jejum persistentemente alterada. Na fase compensatória, o fenômeno descrito tende a envolver",
+      "opts": [
+        "diminuição obrigatória da secreção pancreática de insulina desde o início do processo.",
+        "aumento de captação de glicose por todos os tecidos, sem possibilidade de hiperglicemia.",
+        "aumento compensatório de secreção de insulina pelas células beta, sem corrigir integralmente a resistência periférica.",
+        "substituição da secreção endócrina de insulina por enzimas digestivas produzidas nos ácinos."
+      ],
+      "answer": "C",
+      "explanation": "Na resistência periférica, tecidos respondem menos à ação de insulina. Inicialmente pode ocorrer hiperinsulinemia compensatória; com progressão, a função beta-pancreática pode deteriorar-se.",
+      "fig": null,
+      "number": 6
+    },
+    {
+      "topic": 11,
+      "kind": "Dados amostrais",
+      "q": "A figura reúne resultados de um levantamento por captura e recaptura. Admitidos os pressupostos do método de Lincoln–Petersen, estima-se uma população de aproximadamente",
+      "opts": [
+        "160 indivíduos.",
+        "250 indivíduos.",
+        "320 indivíduos.",
+        "400 indivíduos."
+      ],
+      "answer": "D",
+      "explanation": "Estimativa de Lincoln–Petersen: N≈(80×100)/20=400. O método exige marcas preservadas, população aproximadamente fechada e chance de captura comparável.",
+      "fig": "captura",
+      "number": 7
+    },
+    {
+      "topic": 9,
+      "kind": "Gráfico fisiológico",
+      "q": "A figura representa duas curvas de dissociação da oxiemoglobina medidas no mesmo pH, temperatura e concentração de CO₂. A amostra A contém predominantemente hemoglobina fetal; B, hemoglobina adulta. A implicação fisiológica mais consistente dessa diferença é",
+      "opts": [
+        "que a hemoglobina fetal possui menor afinidade e transfere O₂ para o sangue materno.",
+        "que a maior afinidade da hemoglobina fetal contribui para a transferência de O₂ da circulação materna para a fetal.",
+        "que ambas possuem obrigatoriamente a mesma afinidade, variando apenas o número de eritrócitos.",
+        "que hemoglobina fetal não consegue liberar O₂ aos tecidos em nenhum valor fisiológico de pressão parcial."
+      ],
+      "answer": "B",
+      "explanation": "A hemoglobina fetal apresenta, em geral, maior afinidade por O₂ do que a adulta (deslocamento à esquerda), favorecendo a captação placentária de oxigênio.",
+      "fig": "hemoglobina",
+      "number": 8
+    },
+    {
+      "topic": 6,
+      "kind": "Afirmações",
+      "q": "Julgue as proposições acerca de genes ligados.\nI. A frequência de recombinantes em cruzamento-teste pode informar distância genética.\nII. Genes próximos no mesmo cromossomo tendem a apresentar menos recombinação que genes distantes.\nIII. Em cruzamento-teste de dois loci, a frequência observável de recombinantes pode atingir 70% por crossing-over simples.\nEstá correto o que se afirma em",
+      "opts": [
+        "I e III, apenas.",
+        "II e III, apenas.",
+        "I, II e III.",
+        "I e II, apenas."
+      ],
+      "answer": "D",
+      "explanation": "I e II estão corretas. A frequência observável entre dois loci não supera 50%; recombinações múltiplas podem mascarar a distância física real.",
+      "fig": null,
+      "number": 9
+    },
+    {
+      "topic": 1,
+      "kind": "Afirmações sobre ancestralidade",
+      "q": "O termo LUCA (Last Universal Common Ancestor) é empregado na reconstrução da história evolutiva. Analise:\nI. LUCA é uma população ancestral hipotética das linhagens celulares atuais, não necessariamente o primeiro organismo vivo.\nII. Similaridades profundas em componentes ribossomais e na tradução sustentam ancestralidade celular compartilhada.\nIII. A existência de LUCA demonstra que os primeiros sistemas vivos já possuíam obrigatoriamente mitocôndrias.\nEstá correto o que se afirma em",
+      "opts": [
+        "I e III, apenas.",
+        "II e III, apenas.",
+        "I e II, apenas.",
+        "I, II e III."
+      ],
+      "answer": "C",
+      "explanation": "LUCA representa um ancestral comum inferido, distinto da origem primeira da vida; mitocôndrias surgiram muito depois em eucariotos.",
+      "fig": null,
+      "number": 10
+    },
+    {
+      "topic": 13,
+      "kind": "Fenologia regional",
+      "q": "Em fragmentos de Caatinga, dados mostram que algumas espécies intensificam floração em intervalos de baixa precipitação, enquanto outras florescem após pulsos de chuva. A inferência ecológica mais consistente é",
+      "opts": [
+        "a precipitação anual sozinha determina rigidamente a fenologia de todas as espécies, independentemente de fisiologia e história natural.",
+        "uma estação seca impede, por definição, todo tipo de produção floral no semiárido.",
+        "polinizadores não participam de seleção ou dinâmica reprodutiva em comunidades xerófitas.",
+        "a fenologia reprodutiva pode refletir respostas específicas a sinais ambientais, recursos armazenados e interações com polinizadores."
+      ],
+      "answer": "D",
+      "explanation": "A fenologia pode variar entre espécies em função de água, reservas, fotoperíodo, temperatura e interações bióticas; não existe uma única regra para toda a Caatinga.",
+      "fig": null,
+      "number": 11
+    },
+    {
+      "topic": 3,
+      "kind": "Caso de reprodução vegetal",
+      "q": "Em uma angiosperma com autoincompatibilidade gametofítica determinada pelo locus S, o pólen expressa seu próprio alelo S haploide. Um estigma com genótipo S1S2 recebe pólen S1, S2 e S3 de indivíduos diferentes. No modelo simplificado de rejeição por identidade alélica, qual grão de pólen poderá fecundar?",
+      "opts": [
+        "Somente o pólen S1, porque compartilha um alelo com o estigma.",
+        "O pólen S3, porque não coincide com nenhum dos alelos S do tecido estilar.",
+        "Todos os três, pois a incompatibilidade atua apenas depois da formação do embrião.",
+        "Nenhum, já que qualquer flor diploide é incompatível com todo pólen haploide."
+      ],
+      "answer": "B",
+      "explanation": "Em autoincompatibilidade gametofítica, pólen com alelo S presente no pistilo tende a ser rejeitado; S3 é compatível no modelo proposto.",
+      "fig": null,
+      "number": 12
+    },
+    {
+      "topic": 4,
+      "kind": "Gráfico experimental",
+      "q": "O gráfico apresenta a assimilação fotossintética líquida em função da irradiância, mantendo-se constante a concentração de CO₂. O comportamento da curva na região de alta intensidade luminosa indica",
+      "opts": [
+        "zeramento inevitável da respiração mitocondrial na saturação luminosa.",
+        "conversão irreversível de cloroplastos em cromoplastos acima do ponto de saturação.",
+        "destruição obrigatória do fotossistema II em toda folha plenamente iluminada.",
+        "limitação por outras etapas do metabolismo e da disponibilidade de substratos, ainda que a luz aumente."
+      ],
+      "answer": "D",
+      "explanation": "A luz deixa de ser o fator limitante; enzimas do ciclo de Calvin, CO₂ e outras condições limitam a taxa. Não é necessário dano fotoquímico para existir platô.",
+      "fig": "fotossintese",
+      "number": 13
+    },
+    {
+      "topic": 8,
+      "kind": "Verdadeiro ou falso",
+      "q": "Em relação à biologia dos ciliados, julgue:\n( ) A conjugação pode envolver intercâmbio de material genético entre células sem aumentar imediatamente seu número.\n( ) Os cílios podem contribuir para locomoção e alimentação.\n( ) O macronúcleo é o único tipo de núcleo presente em todos os ciliados e desempenha meiose na conjugação.\n( ) O micronúcleo participa de processos sexuais e da transmissão de informação genética entre gerações.\nAssinale a sequência correta.",
+      "opts": [
+        "V – F – V – F.",
+        "F – V – V – F.",
+        "V – V – V – F.",
+        "V – V – F – V."
+      ],
+      "answer": "D",
+      "explanation": "Conjugação ciliada envolve micronúcleos; muitos ciliados apresentam macronúcleo funcional e micronúcleo germinativo; cílios podem auxiliar movimento e alimentação.",
+      "fig": null,
+      "number": 14
+    },
+    {
+      "topic": 2,
+      "kind": "Aplicação celular",
+      "q": "Um fármaco inibe especificamente a atividade de um complexo ciclina-CDK necessário à passagem G1/S. Em cultura proliferativa sincronizada, espera-se",
+      "opts": [
+        "maior frequência imediata de células em anáfase II.",
+        "migração direta de células G1 para G2, sem replicação de DNA.",
+        "acúmulo relativo de células antes da fase S e redução do ingresso em replicação.",
+        "duplicação de cromossomos sem participação de controle do ciclo celular."
+      ],
+      "answer": "C",
+      "explanation": "A passagem G1/S integra um ponto de controle; seu bloqueio impede início eficiente da fase S.",
+      "fig": null,
+      "number": 15
+    },
+    {
+      "topic": 15,
+      "kind": "Caso de comunicação científica",
+      "q": "Um projeto de ciência cidadã recebe mais registros de borboletas de bairros próximos a escolas do que de áreas rurais remotas. Antes de concluir que a diversidade é maior nos bairros, os estudantes devem",
+      "opts": [
+        "considerar viés no esforço de observação e comparar amostragens padronizadas entre localidades.",
+        "assumir que a frequência de fotos prova abundância verdadeira, independentemente de esforço.",
+        "descartar todos os dados comunitários por serem incompatíveis com produção científica.",
+        "usar somente o número absoluto de registros, porque normalizar esforço elimina dados biológicos relevantes."
+      ],
+      "answer": "A",
+      "explanation": "Dados de ciência cidadã podem apresentar viés amostral. Comparação de diversidade requer cuidado com esforço, detecção e distribuição espacial.",
+      "fig": null,
+      "number": 16
+    },
+    {
+      "topic": 6,
+      "kind": "Heredograma de herança mitocondrial",
+      "q": "O heredograma ilustra a ocorrência de um caráter em três gerações. Considerando homoplasmia e penetrância completa, qual mecanismo de herança melhor explica a distribuição observada?",
+      "opts": [
+        "herança dominante ligada ao Y.",
+        "herança citoplasmática mitocondrial com transmissão materna.",
+        "herança recessiva autossômica incompatível com descendência feminina.",
+        "herança holândrica transmitida por mães."
+      ],
+      "answer": "B",
+      "explanation": "Mitocôndrias são herdadas predominantemente pela via materna: homens afetados normalmente não transmitem variantes mitocondriais aos filhos, enquanto mulheres podem transmiti-las.",
+      "fig": "maternal",
+      "number": 17
+    },
+    {
+      "topic": 17,
+      "kind": "Contexto curricular",
+      "q": "Ao organizar um itinerário interdisciplinar voltado à biodiversidade local, o professor inclui conhecimentos tradicionais da comunidade, estudos de espécies e análise crítica de evidências. Na articulação com BNCC e DCRC, a decisão é coerente quando",
+      "opts": [
+        "substitui toda explicação científica por opiniões pessoais sem exame de evidências.",
+        "elimina a participação da comunidade, pois contextualização territorial não integra formação escolar.",
+        "limita atividades a um banco de definições descontextualizadas e sem investigação.",
+        "promove diálogo crítico entre saberes, métodos científicos, competências e demandas do território."
+      ],
+      "answer": "D",
+      "explanation": "A contextualização curricular valoriza o território e o diálogo de conhecimentos sem abandonar critérios de evidência e argumentação científica.",
+      "fig": null,
+      "number": 18
+    },
+    {
+      "topic": 10,
+      "kind": "Fisiologia vegetal",
+      "q": "Uma planta de dia curto permanece sob uma noite suficientemente longa, mas recebe um pulso luminoso no meio do período escuro. Dependendo da espécie e da qualidade da luz, pode ocorrer",
+      "opts": [
+        "aceleração obrigatória da floração independentemente do fitocromo.",
+        "inibição da floração pela interrupção do sinal de noite longa, mediado pelo sistema fitocromo.",
+        "supressão completa da transpiração, causa única da alteração de floração.",
+        "fotossíntese em escuro completo, que substitui a percepção de duração da noite."
+      ],
+      "answer": "B",
+      "explanation": "O fotoperiodismo envolve percepção da duração da noite; pulsos luminosos podem impedir floração de plantas de dia curto.",
+      "fig": null,
+      "number": 19
+    },
+    {
+      "topic": 5,
+      "kind": "Biologia molecular",
+      "q": "Uma mutação pontual converte um códon que codifica aminoácido em códon de parada precoce. A alteração molecular é classificada como",
+      "opts": [
+        "silenciosa, porque todo códon alterado determina o mesmo aminoácido.",
+        "frameshift necessariamente provocado pela deleção de três bases.",
+        "duplicação cromossômica obrigatória.",
+        "nonsense, podendo produzir polipeptídeo truncado ou degradação do mRNA."
+      ],
+      "answer": "D",
+      "explanation": "Substituição que cria códon de parada é nonsense; não exige inserção ou deleção e pode desencadear degradação mediada por nonsense.",
+      "fig": null,
+      "number": 20
+    },
+    {
+      "topic": 9,
+      "kind": "Fisiologia humana",
+      "q": "Uma lesão compromete seletivamente as células justaglomerulares que secretam renina. A consequência direta mais provável é",
+      "opts": [
+        "aumento exclusivo da produção de surfactante pulmonar.",
+        "interrupção da liberação de glucagon pelo pâncreas.",
+        "alteração na ativação do sistema renina-angiotensina-aldosterona.",
+        "bloqueio da acetilcolina liberada por motoneurônios."
+      ],
+      "answer": "C",
+      "explanation": "A renina inicia o processamento do angiotensinogênio e integra a regulação de pressão e volume circulante.",
+      "fig": null,
+      "number": 21
+    },
+    {
+      "topic": 1,
+      "kind": "Origem da vida",
+      "q": "Em modelos de protocélulas, a formação espontânea de vesículas lipídicas em água é relevante sobretudo porque",
+      "opts": [
+        "favorece compartimentalização e proximidade de reagentes, sem exigir células modernas.",
+        "comprova que ribossomos 80S surgiram antes dos ácidos nucleicos.",
+        "garante replicação de DNA sem energia e sem moléculas catalíticas.",
+        "torna todo compartimento automaticamente capaz de realizar meiose."
+      ],
+      "answer": "A",
+      "explanation": "Compartimentalização pode favorecer concentração de reagentes e microambientes, mas não demonstra vida completa.",
+      "fig": null,
+      "number": 22
+    },
+    {
+      "topic": 11,
+      "kind": "Pirâmide ecológica",
+      "q": "De acordo com a pirâmide de energia apresentada na figura, qual porcentagem da energia disponível aos produtores alcança o nível dos consumidores terciários?",
+      "opts": [
+        "10%.",
+        "1%.",
+        "0,01%.",
+        "0,1%."
+      ],
+      "answer": "D",
+      "explanation": "10/10.000 = 0,001, ou seja, 0,1%. Conversão de proporção para porcentagem exige multiplicar por 100.",
+      "fig": "piramide",
+      "number": 23
+    },
+    {
+      "topic": 8,
+      "kind": "Caso de micologia",
+      "q": "Em basidiomicetos típicos, depois da plasmogamia de hifas compatíveis e antes da cariogamia nos basídios, é frequente observar micélio com células contendo dois núcleos geneticamente distintos. Esse estado é denominado",
+      "opts": [
+        "diploide somático estável (2n) com fusão imediata de todos os núcleos.",
+        "haploide uninucleado obrigatório durante toda a fase reprodutiva.",
+        "dicariótico (n+n), anterior à fusão nuclear seguida de meiose no basídio.",
+        "triploide (3n), formado por duas divisões meióticas consecutivas."
+      ],
+      "answer": "C",
+      "explanation": "Na fase dicariótica, núcleos haploides de origens distintas coexistem sem fusão; a cariogamia e a meiose ocorrem no basídio.",
+      "fig": null,
+      "number": 24
+    },
+    {
+      "topic": 16,
+      "kind": "Caso de avaliação formativa",
+      "q": "Após aplicar uma atividade de interpretação de dados, uma professora verifica que parte da turma associa correlação estatística a causalidade obrigatória. A resposta avaliativa mais adequada é",
+      "opts": [
+        "atribuir nota final e encerrar o assunto, já que corrigir trajetórias compromete neutralidade.",
+        "usar a evidência diagnóstica para oferecer feedback específico e nova tarefa de transferência conceitual.",
+        "aumentar a dificuldade sem explicar o raciocínio, para eliminar respostas parcialmente corretas.",
+        "substituir a avaliação por presença na aula, porque equívocos conceituais não são observáveis."
+      ],
+      "answer": "B",
+      "explanation": "Avaliação formativa permite identificar concepções e ajustar intervenções; feedback e reavaliação monitoram aprendizagem.",
+      "fig": null,
+      "number": 25
+    },
+    {
+      "topic": 12,
+      "kind": "Caso de toxicologia",
+      "q": "Após contato ocupacional com um inseticida organofosforado, um trabalhador apresenta salivação excessiva, miose, broncorreia e bradicardia. A relação mecanística mais provável é",
+      "opts": [
+        "bloqueio irreversível de receptores nicotínicos sem alteração da concentração de acetilcolina.",
+        "inibição seletiva da síntese hepática de adrenalina como explicação de todos os sinais.",
+        "ativação de acetilcolinesterase, com diminuição marcante de acetilcolina nas sinapses.",
+        "inibição da acetilcolinesterase e acúmulo de acetilcolina, com hiperestimulação colinérgica."
+      ],
+      "answer": "D",
+      "explanation": "Organofosforados inibem acetilcolinesterase, aumentando ação da acetilcolina em receptores muscarínicos, nicotínicos e centrais.",
+      "fig": null,
+      "number": 26
+    },
+    {
+      "topic": 4,
+      "kind": "Verdadeiro ou falso",
+      "q": "Em plantas C4, considere:\n( ) A fixação inicial de HCO₃⁻ pela PEP-carboxilase ocorre tipicamente no mesófilo.\n( ) A descarboxilação de compostos C4 eleva a concentração de CO₂ junto à Rubisco em células da bainha vascular de muitas espécies.\n( ) A via C4 elimina completamente a necessidade de ATP para concentrar carbono.\n( ) A compartimentalização C4 pode reduzir a fotorrespiração em condições de calor e elevada luminosidade.\nA sequência correta é",
+      "opts": [
+        "V – V – F – V.",
+        "V – F – V – V.",
+        "F – V – V – F.",
+        "V – V – V – F."
+      ],
+      "answer": "A",
+      "explanation": "Na via C4, PEP-carboxilase no mesófilo fixa bicarbonato, a descarboxilação favorece Rubisco na bainha e há custo energético adicional; a concentração de CO₂ reduz fotorrespiração.",
+      "fig": null,
+      "number": 27
+    },
+    {
+      "topic": 3,
+      "kind": "Afirmações sobre fecundação",
+      "q": "Na fecundação de mamíferos, analise:\nI. A reação acrossômica contribui para a interação e penetração de envoltórios do ovócito.\nII. A reação cortical modifica a zona pelúcida e ajuda a bloquear a polispermia.\nIII. O ovócito humano conclui a meiose II antes de qualquer estímulo de fecundação, sendo dispensada sua ativação.\nEstá correto o que se afirma em",
+      "opts": [
+        "I e III, apenas.",
+        "I e II, apenas.",
+        "II e III, apenas.",
+        "I, II e III."
+      ],
+      "answer": "B",
+      "explanation": "Reação acrossômica auxilia interação espermática; reação cortical bloqueia poliespermia; ovócito secundário geralmente completa meiose II após ativação pela fecundação.",
+      "fig": null,
+      "number": 28
+    },
+    {
+      "topic": 7,
+      "kind": "Caso evolutivo",
+      "q": "Peixes de ambientes cavernícolas de linhagens diferentes desenvolveram perda de pigmentação e redução dos olhos. Uma análise genética identifica mudanças distintas associadas às características em cada linhagem. A interpretação mais consistente é",
+      "opts": [
+        "obrigatoriedade de ancestral exclusivo recente para as linhagens, em razão da semelhança fenotípica.",
+        "evidência de transformação dirigida do DNA, que responde a uma necessidade ambiental específica.",
+        "evolução convergente de fenótipos semelhantes por trajetórias genéticas possivelmente diferentes.",
+        "impossibilidade de seleção natural em ambientes sem luz, pois não há pressões seletivas."
+      ],
+      "answer": "C",
+      "explanation": "Fenótipos semelhantes podem resultar de trajetórias evolutivas independentes; homoplasia não prova parentesco mais próximo.",
+      "fig": null,
+      "number": 29
+    },
+    {
+      "topic": 12,
+      "kind": "Saúde Única",
+      "q": "Ao comparar bairros com incidências distintas de dengue, um estudo integrado de Saúde Única deve incluir",
+      "opts": [
+        "apenas genoma viral, dispensando dados de vetor e ambiente.",
+        "somente capacidade hospitalar, pois transmissão é independente de contexto urbano.",
+        "vetor, ambiente, condições de ocupação territorial e estratégias de vigilância.",
+        "apenas animais domésticos, tratados como hospedeiros amplificadores obrigatórios."
+      ],
+      "answer": "C",
+      "explanation": "Arboviroses urbanas exigem leitura integrada de vetor, pessoas, ambiente, saneamento, mobilidade e vigilância.",
+      "fig": null,
+      "number": 30
+    },
+    {
+      "topic": 2,
+      "kind": "Microscopia",
+      "q": "Uma equipe deseja mapear a localização de uma proteína específica em células fixadas. Marcadores fluorescentes conjugados a anticorpos permitem",
+      "opts": [
+        "separar cromossomos segundo seu número de centrômeros.",
+        "visualizar distribuição espacial do antígeno, mediante excitação e emissão de fluorescência.",
+        "medir concentração osmótica independentemente de qualquer padrão de calibração.",
+        "amplificar o gene por PCR em todos os compartimentos observados."
+      ],
+      "answer": "B",
+      "explanation": "Imunofluorescência associa especificidade de anticorpos à imagem espacial de antígenos em células ou tecidos.",
+      "fig": null,
+      "number": 31
+    },
+    {
+      "topic": 13,
+      "kind": "Geografia ecológica do Ceará",
+      "q": "Em serras úmidas do Ceará, a elevação do relevo pode favorecer condensação e chuvas locais, permitindo formações florestais distintas da matriz semiárida próxima. Esse padrão pode ser interpretado como",
+      "opts": [
+        "efeito orográfico associado a condições microclimáticas e refúgios de biodiversidade.",
+        "evidência de que a altitude elimina toda sazonalidade hídrica e qualquer déficit de água.",
+        "prova de que ambientes com vegetação diferente precisam ter necessariamente solos idênticos.",
+        "resultado exclusivo de irrigação humana recente, sem participação da circulação atmosférica."
+      ],
+      "answer": "A",
+      "explanation": "Relevo influencia precipitação e microclima; enclaves úmidos podem concentrar biodiversidade distinta da Caatinga circundante.",
+      "fig": null,
+      "number": 32
+    },
+    {
+      "topic": 9,
+      "kind": "Mecanismo fisiológico",
+      "q": "Em condições normais, um aumento importante na pressão de CO₂ arterial induz maior ventilação principalmente porque",
+      "opts": [
+        "bloqueia a passagem de CO₂ ao encéfalo e eleva o pH do líquido cerebrospinal.",
+        "diminui a concentração de H⁺ e inibe os quimiorreceptores bulbares.",
+        "o controle ventilatório não responde a variações de gases arteriais.",
+        "CO₂ modifica o pH do líquido cerebrospinal, estimulando quimiorreceptores centrais."
+      ],
+      "answer": "D",
+      "explanation": "O CO₂ atravessa a barreira hematoencefálica e eleva H⁺ no LCR, estimulando centros respiratórios.",
+      "fig": null,
+      "number": 33
+    },
+    {
+      "topic": 5,
+      "kind": "Eletroforese",
+      "q": "O esquema apresenta marcador de tamanho e três amostras de DNA após PCR. Qual amostra possui simultaneamente fragmentos próximos a 600 e 300 pares de bases?",
+      "opts": [
+        "Amostra 1.",
+        "Amostra 3.",
+        "Amostra 2.",
+        "Nenhuma."
+      ],
+      "answer": "C",
+      "explanation": "A amostra 2 apresenta duas bandas alinhadas ao marcador em ~600 e ~300 pb; tamanho estimado depende da posição relativa no gel.",
+      "fig": "gel",
+      "number": 34
+    },
+    {
+      "topic": 11,
+      "kind": "Gráfico de relações tróficas",
+      "q": "O gráfico representa as oscilações populacionais de presa e predador em um ecossistema. O padrão temporal das curvas é compatível com qual interpretação?",
+      "opts": [
+        "que o predador sempre aumenta antes de ocorrer disponibilidade de presas.",
+        "que a resposta demográfica do predador pode apresentar atraso em relação às oscilações da presa.",
+        "que os dois grupos estão obrigatoriamente em mutualismo, pois ambas as populações oscilam.",
+        "que predadores e presas evoluem de forma totalmente independente e não interagem."
+      ],
+      "answer": "B",
+      "explanation": "O aumento na disponibilidade de presas pode anteceder o crescimento de predadores; relações consumidor-recurso costumam envolver defasagens e dependem também de condições ambientais.",
+      "fig": "predprey",
+      "number": 35
+    },
+    {
+      "topic": 7,
+      "kind": "Caso de isolamento reprodutivo",
+      "q": "Duas populações de insetos mantêm contato geográfico, mas as fêmeas reconhecem parceiros por sinais acústicos distintos. Cruzamentos em laboratório revelam descendência viável quando os indivíduos são acasalados artificialmente. O obstáculo natural à reprodução é principalmente",
+      "opts": [
+        "isolamento pré-zigótico comportamental.",
+        "inviabilidade híbrida obrigatória após fecundação.",
+        "isolamento pós-zigótico por esterilidade de todos os híbridos.",
+        "barreira cromossômica geográfica que impede todo encontro físico."
+      ],
+      "answer": "A",
+      "explanation": "Diferenças de corte sexual ou sinais de reconhecimento podem impedir acasalamento antes da formação do zigoto, mesmo com compatibilidade fisiológica em laboratório.",
+      "fig": null,
+      "number": 36
+    },
+    {
+      "topic": 1,
+      "kind": "Inferência sobre origem da vida",
+      "q": "Modelos de evolução química em ambientes hidrotermais consideram superfícies minerais e gradientes geoquímicos como possíveis condições para etapas pré-celulares. Sobre o papel desses fatores, a conclusão cientificamente mais defensável é",
+      "opts": [
+        "as superfícies minerais dispensariam qualquer fonte de energia e garantiriam a formação de ribossomos modernos.",
+        "gradientes e catalisadores minerais poderiam favorecer reações e concentração local de compostos, sem comprovar, por si só, a origem de células vivas.",
+        "uma vez presente um gradiente de pH, a formação de DNA cromossômico e mitose torna-se um resultado inevitável.",
+        "a hipótese elimina a necessidade de testar mecanismos químicos, pois a existência atual de fontes hidrotermais constitui prova conclusiva."
+      ],
+      "answer": "B",
+      "explanation": "Gradientes energéticos e superfícies catalíticas são investigados como condições plausíveis para processos pré-celulares, mas não demonstram automaticamente o surgimento de vida.",
+      "fig": null,
+      "number": 37
+    },
+    {
+      "topic": 3,
+      "kind": "Caso de fisiologia reprodutiva",
+      "q": "Em gestação humana inicial, antes de a placenta assumir progressivamente a produção suficiente de progesterona, o corpo lúteo precisa ser mantido. O sinal hormonal fundamental nessa manutenção é",
+      "opts": [
+        "FSH secretado pelo endométrio, com ação exclusiva sobre folículos pré-ovulatórios.",
+        "prolactina produzida pelo embrião, que substitui toda função gonadotrófica.",
+        "hCG secretada pelo trofoblasto, que atua em receptores semelhantes aos de LH.",
+        "ocitocina fetal, que estimula diretamente a regressão do corpo lúteo."
+      ],
+      "answer": "C",
+      "explanation": "A gonadotrofina coriônica humana (hCG), produzida pelo tecido trofoblástico, mantém o corpo lúteo e a secreção de progesterona no início da gestação.",
+      "fig": null,
+      "number": 38
+    },
+    {
+      "topic": 4,
+      "kind": "Regulação metabólica",
+      "q": "Em uma via biossintética, a alta concentração do produto final diminui a atividade de uma enzima que catalisa uma etapa comprometida da própria via, por ligação em sítio regulatório distinto do sítio do substrato. Esse mecanismo é",
+      "opts": [
+        "inibição alostérica por retroalimentação negativa, contribuindo para modular o fluxo metabólico.",
+        "inibição competitiva irreversível obrigatoriamente causada pela degradação do substrato.",
+        "ativação constitutiva de enzima, independente da concentração de produto.",
+        "retroalimentação positiva que impede a formação de qualquer produto intermediário."
+      ],
+      "answer": "A",
+      "explanation": "Inibição por feedback pode ocorrer em sítio alostérico, ajustando a atividade enzimática à abundância do produto final.",
+      "fig": null,
+      "number": 39
+    },
+    {
+      "topic": 1,
+      "kind": "Origem das células eucarióticas",
+      "q": "Uma linhagem de organelas energéticas eucarióticas apresenta genoma próprio circular, ribossomos de origem bacteriana e divisão por fissão. Combinadas à filogenia molecular, essas características apoiam",
+      "opts": [
+        "a formação de organelas exclusivamente por invaginação sem qualquer ancestral bacteriano.",
+        "a origem de todas as organelas por transformação direta de vírus envelopados.",
+        "a impossibilidade de transferência de genes organelares para o genoma nuclear.",
+        "uma origem endossimbiótica de mitocôndrias a partir de bactéria ancestral incorporada por hospedeiro."
+      ],
+      "answer": "D",
+      "explanation": "DNA organelar, ribossomos e filogenia bacteriana sustentam endossimbiose mitocondrial; muitos genes foram transferidos ao núcleo.",
+      "fig": null,
+      "number": 40
+    },
+    {
+      "topic": 10,
+      "kind": "Gradiente hídrico",
+      "q": "O esquema apresenta os potenciais hídricos (Ψ) de três compartimentos de uma planta transpirante. Qual sentido de deslocamento líquido de água e mecanismo predominante são compatíveis com os valores medidos?",
+      "opts": [
+        "da folha ao solo, pois a água flui espontaneamente para potenciais menos negativos.",
+        "do solo para a folha, seguindo gradiente de potencial hídrico, com coesão e tensão na coluna de água do xilema.",
+        "do caule para o solo, por bombeamento ativo de moléculas de água nos vasos mortos.",
+        "do solo para a folha apenas quando há gasto direto de ATP em cada elemento de vaso."
+      ],
+      "answer": "B",
+      "explanation": "Água tende a mover-se de Ψ mais elevado (menos negativo) para Ψ menor (mais negativo). A transpiração e a coesão-tensão sustentam o fluxo no xilema.",
+      "fig": "xylem",
+      "number": 41
+    },
+    {
+      "topic": 6,
+      "kind": "Determinação sexual",
+      "q": "Em aves, fêmeas são ZW e machos ZZ. No cruzamento de uma fêmea ZW com um macho ZZ, os gametas sexuais são",
+      "opts": [
+        "fêmea exclusivamente Z e macho Z ou W.",
+        "fêmea exclusivamente W e macho Z ou W.",
+        "fêmea Z ou W e macho exclusivamente Z.",
+        "ambos exclusivamente ZZ, após meiose."
+      ],
+      "answer": "C",
+      "explanation": "A fêmea é heterogamética, produzindo gametas Z e W; machos ZZ produzem gametas Z.",
+      "fig": null,
+      "number": 42
+    },
+    {
+      "topic": 2,
+      "kind": "Associação",
+      "q": "Associe as organelas: \n1. Peroxissomo\n2. Complexo golgiense\n3. Lisossomo\n( ) Processamento e triagem de proteínas secretórias.\n( ) Hidrolases ácidas e digestão intracelular.\n( ) Oxidação de substratos e atuação da catalase.\nA sequência correta é",
+      "opts": [
+        "2–3–1.",
+        "3–2–1.",
+        "2–1–3.",
+        "1–3–2."
+      ],
+      "answer": "A",
+      "explanation": "Golgi corresponde a 2; lisossomo a 3; peroxissomo a 1.",
+      "fig": null,
+      "number": 43
+    },
+    {
+      "topic": 3,
+      "kind": "Embriologia aplicada",
+      "q": "Durante o desenvolvimento embrionário de vertebrados, determinadas células se destacam da região dorsal do tubo neural e migram pelo embrião, contribuindo para estruturas do sistema nervoso periférico e para melanócitos. O grupo celular descrito corresponde a",
+      "opts": [
+        "células da crista neural, cuja migração amplia a diversidade de derivados embrionários.",
+        "células do hipoblasto, responsáveis diretamente pela origem de todos os neurônios periféricos.",
+        "células do endoderma intestinal, que formam melanócitos e gânglios sensitivos.",
+        "células trofoblásticas, que constituem o tecido neural migratório após a implantação."
+      ],
+      "answer": "A",
+      "explanation": "A crista neural é uma população de células ectodérmicas migratórias com derivados diversos, incluindo parte do sistema nervoso periférico e melanócitos.",
+      "fig": null,
+      "number": 44
+    },
+    {
+      "topic": 13,
+      "kind": "Ecologia regional",
+      "q": "A perda de manguezais na zona costeira do Ceará pode prejudicar a pesca artesanal porque tais ecossistemas",
+      "opts": [
+        "não sofrem influência das marés e nunca entram em contato com água salgada.",
+        "funcionam como abrigo e área de alimentação para juvenis de diversas espécies aquáticas.",
+        "existem apenas em rios sem qualquer comunicação estuarina.",
+        "não participam de retenção de sedimentos ou ciclagem de nutrientes."
+      ],
+      "answer": "B",
+      "explanation": "Manguezais contribuem para produção secundária, áreas de berçário e sustentação de cadeias tróficas.",
+      "fig": null,
+      "number": 45
+    },
+    {
+      "topic": 7,
+      "kind": "Seleção e polimorfismo",
+      "q": "Em determinada região, heterozigotos para dois alelos de um locus apresentam maior sucesso reprodutivo do que ambos os homozigotos. Mantidas outras condições, a tendência populacional mais característica dessa seleção é",
+      "opts": [
+        "eliminação imediata de um dos alelos em toda geração.",
+        "fixação simultânea dos dois alelos, tornando todos os indivíduos homozigotos.",
+        "manutenção de polimorfismo por vantagem heterozigótica, em vez de fixação simples de um alelo.",
+        "redução da aptidão dos heterozigotos, apesar dos dados contrários."
+      ],
+      "answer": "C",
+      "explanation": "A vantagem heterozigótica é uma forma de seleção balanceadora que pode manter múltiplos alelos em uma população.",
+      "fig": null,
+      "number": 46
+    },
+    {
+      "topic": 11,
+      "kind": "Ecologia de comunidades",
+      "q": "Uma espécie de peixe introduzida em lago passa a consumir as mesmas presas utilizadas por predadores nativos. Qual hipótese inicial é testável e ecologicamente coerente?",
+      "opts": [
+        "Há competição por recursos que pode alterar abundâncias de populações nativas.",
+        "Toda espécie introduzida produz obrigatoriamente aumento de diversidade local.",
+        "A introdução elimina todas as interações tróficas preexistentes.",
+        "Competição é impossível entre espécies de origens geográficas distintas."
+      ],
+      "answer": "A",
+      "explanation": "Sobreposição trófica gera hipótese de competição, a ser verificada por medidas de dieta, abundância e recursos.",
+      "fig": null,
+      "number": 47
+    },
+    {
+      "topic": 10,
+      "kind": "Ecologia fisiológica vegetal",
+      "q": "Em solo tropical com baixa disponibilidade de fósforo, plantas micorrizadas podem apresentar absorção de fosfato maior que plantas sem fungos associados. A explicação mais consistente é",
+      "opts": [
+        "os fungos substituem a fotossíntese vegetal, produzindo necessariamente toda sacarose requerida pela planta.",
+        "raízes micorrizadas deixam de absorver água e íons porque fungos bloqueiam os pelos radiculares.",
+        "o fungo transforma diretamente o fósforo mineral em nitrogênio atmosférico fixado.",
+        "as hifas ampliam a exploração do solo e a aquisição de nutrientes pouco móveis, em troca de carbono fornecido pela planta."
+      ],
+      "answer": "D",
+      "explanation": "Associações micorrízicas frequentemente ampliam a área efetiva de absorção de fósforo; o parceiro fúngico recebe compostos de carbono.",
+      "fig": null,
+      "number": 48
+    },
+    {
+      "topic": 12,
+      "kind": "Mecanismo de oncogênese viral",
+      "q": "Infecções persistentes por tipos oncogênicos de HPV elevam o risco de determinados cânceres. Entre os mecanismos associados estão as oncoproteínas virais E6 e E7, que podem, respectivamente, prejudicar",
+      "opts": [
+        "a tubulina e as mitocôndrias, eliminando diretamente todos os cromossomos da célula.",
+        "a função de p53 e de proteínas da família Rb, favorecendo desregulação do ciclo celular.",
+        "apenas a síntese de peptidoglicano da célula hospedeira, pois o HPV é bacteriano.",
+        "a produção de clorofila e a formação de parede celular em epitélios humanos."
+      ],
+      "answer": "B",
+      "explanation": "E6 favorece perda de função da via p53 e E7 interfere em proteínas Rb; isso facilita progressão do ciclo celular e pode contribuir para carcinogênese.",
+      "fig": null,
+      "number": 49
+    },
+    {
+      "topic": 8,
+      "kind": "Zoologia",
+      "q": "A elevada eficiência das trocas gasosas em muitos insetos terrestres relaciona-se à existência de",
+      "opts": [
+        "brânquias altamente vascularizadas como única superfície respiratória.",
+        "hematose obrigatória dependente de pigmentos respiratórios no plasma da hemolinfa.",
+        "cutícula completamente permeável, que elimina necessidade de órgãos respiratórios.",
+        "rede de traqueias associadas a espiráculos que leva gases próximos aos tecidos."
+      ],
+      "answer": "D",
+      "explanation": "Espiráculos e traqueias conduzem ar a tecidos, reduzindo dependência de transporte de O₂ pela hemolinfa.",
+      "fig": null,
+      "number": 50
+    }
+  ]
+}
