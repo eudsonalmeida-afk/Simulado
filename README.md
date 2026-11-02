@@ -25,3 +25,6 @@ Os demais arquivos do ZIP são apenas auxiliares, para editar o banco de questõ
 - `figures.json` — código fonte das 11 figuras vetoriais (também está incorporado no HTML).
 
 Observação: em uma aplicação estática, alguém com acesso ao código-fonte pode inspecionar o gabarito mesmo antes de concluir o simulado. A interface não mostra as respostas antes da entrega.
+
+## Correção do cronômetro
+O relógio fica parado até clicar em **Iniciar**. Use **Pausar/Retomar** para controlar o tempo, ou **Zerar somente o tempo** para reiniciar sem perder respostas. Ele pausa quando a página perde o foco, fica oculta ou é fechada. Para tentativas iniciadas na versão anterior, o cronômetro é reiniciado (não há duração ativa confiável na versão anterior); respostas e marcações continuam salvas no mesmo navegador, pois a chave do armazenamento não foi alterada.
